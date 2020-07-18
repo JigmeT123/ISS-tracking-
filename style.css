@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("./maxresdefault.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Montserrat', cursive;
+}
+
+.contain #map {
+  width: 85%;
+  height: 65vh;
+}
+
+.contain #map .marker {
+  background-image: url("./iss200.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+}
+
+.contain .contain-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: black;
+  margin-top: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contain .card {
+  width: 12rem;
+  height: 8rem;
+  margin-right: 30px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.contain-2 {
+  width: 100vw;
+  height: auto;
+  font-family: 'Oswald', sans-serif;
+}
+
+.contain-2 .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contain-2 .content .c1 {
+  margin-top: 3rem;
+  width: 100%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  place-items: center;
+  text-align: center;
+}
+
+.contain-2 .content .footer {
+  width: 100%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.contain-2 .content img {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 500px;
+  height: 300px;
+}
+
+@media only screen and (max-width: 920px) {
+  .c1 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contain h1 {
+    font-size: 40px;
+  }
+  .card {
+    margin-right: 0;
+  }
+  .contain-card {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content .c1 img {
+    width: 300px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

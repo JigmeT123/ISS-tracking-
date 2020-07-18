@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="./style.css">
+    <title>ISS Location</title>
+</head>
+<body class="body">
+    <div class="contain">
+        <h1 class="center ">International Space Station(ISS) Location</h1>
+        <div id='map'></div>
+        <div class="contain-card">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-title center flow-text">Latitude:</div>
+                <p class="hereName1 center"></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="card-title center flow-text">Longitude:</div>
+                <p class="hereName2 center"></p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="contain-2">
+        <div class="content">
+            <h1 class="flow-text center">Facts About ISS</h1>
+            <div>
+                <div class="c1">
+                <p class="flow-text">1. The station travels from west to east on an orbital inclination of 51.6 degrees. Each orbit takes 90-93 minutes, depending on the exact altitude of the ISS.
+                <br /> <br/></p>
+                <img src="./orbit.gif" width="100%"/>
+            </div>
+
+            <div class="c1">
+                <p class="flow-text">2. With each orbit taking 90-93 minutes, there are approximately 16 orbits per day (24 hours).
+                <br /> <br/></p>
+                <img src="./OrbTutorImg3.gif" width="100%"/>
+
+            </div>
+
+            <div class="c1"> 
+                <p class="flow-text">3. There is an approximate repeat of orbit tracks over the same area on the ground every 3 days. Again, the ISS altitude will determine how closely the tracks repeat.
+                <br /> <br/>
+                You can track and plan the ISS transist using the website <a href="https://transit-finder.com/" target="_blank">HERE</a> and view it during the night from ypur place</p>
+                <img src="./OrbTutorImg4.gif" width="100%"/>
+              
+            </div>
+                
+            </div>
+        </div>
+       
+    </div>
+
+<script src='main.js'></script>
+</body>
+</html>
